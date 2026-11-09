@@ -40,11 +40,11 @@ export default function App() {
           <div className="hero-content reveal">
             <span className="status"><span className="status-dot" /> Open to learning and opportunities</span>
             <p className="eyebrow">HELLO, I'M</p>
-            <h1>Vinay<br /><span className="accent">Raghuwanshi.</span></h1>
+            <h1>Vinay<br /><span className="accent">Raghuwanshi</span></h1>
             <h2>{profile.role}</h2>
             <p className="hero-description">
               I am a B.Tech student passionate about programming, problem-solving,
-              and building useful web experiences.
+              and building useful web experiences
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#contact">Get in touch <ArrowUpRight size={18} /></a>
@@ -168,7 +168,7 @@ export default function App() {
       </main>
       <footer className="footer">
         <a className="brand" href="#home">Vinay<span className="accent">.</span></a>
-        <p>Designed & built with React. © {new Date().getFullYear()} Vinay Raghuwanshi.</p>
+        <p>Designed & built with React. © {new Date().getFullYear()} Vinay Raghuwanshi</p>
         <a href="#home" aria-label="Back to top"><ArrowUpRight size={19} /></a>
       </footer>
     </>
