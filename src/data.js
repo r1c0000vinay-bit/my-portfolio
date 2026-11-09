@@ -10,14 +10,13 @@ export const profile = {
 };
 
 export const skills = [
-  { name: "Java", level: "Programming" },
+  { name: "Java & Python", level: "Programming" },
   { name: "Data Structures & Algorithms", level: "Core concepts" },
-  { name: "HTML", level: "Frontend" },
-  { name: "CSS", level: "Frontend" },
-  { name: "JavaScript", level: "Frontend" },
-  { name: "Object-Oriented Programming", level: "Core concepts" }
+  { name: "HTML CSS JS & React", level: "Frontend" },
+  { name: "APIs & Flask", level: "Backend" },
+  { name: "Git & GitHub", level: "Tools" },
+  { name: "OOP & SpringBoot", level: "Core concepts" }
 ];
-
 export const education = [
   {
     period: "2024 – 2028",
